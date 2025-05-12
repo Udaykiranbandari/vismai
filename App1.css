@@ -1,0 +1,18 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, auto); /* only 2 rows */
+    gap: 16px;
+    padding: 16px;
+    max-height: 100vh;
+    
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+  }
+  
